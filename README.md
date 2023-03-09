@@ -1,6 +1,6 @@
 # API Base Project
 
-A practical base for Django REST Framework APIs.
+A practical base for Django REST Framework APIs, shaped from small planning notes and repeated project setup needs.
 
 A small Django and Django REST Framework base project for starting JSON APIs with predictable settings, routes, responses, validation, authentication examples, and tests.
 
