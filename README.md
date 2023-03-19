@@ -1,6 +1,6 @@
 # API Base Project
 
-Rough notes for a reusable API base project.
+Early notes for a reusable API base project.
 
 ## Purpose
 
