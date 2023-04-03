@@ -18,3 +18,12 @@ Start with plain notes, then slowly turn the useful pieces into a Django REST Fr
 ## Wording cleanup
 
 Use API consistently instead of mixing API, backend, and service language too early.
+
+## Simple folder plan
+
+```text
+config/
+apps/
+docs/
+tests/
+```
