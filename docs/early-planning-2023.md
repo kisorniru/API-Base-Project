@@ -27,3 +27,7 @@ apps/
 docs/
 tests/
 ```
+
+## Serializer note
+
+Serializers should probably handle both input validation and simple output shaping once DRF enters the project.
