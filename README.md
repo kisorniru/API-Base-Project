@@ -4,4 +4,4 @@ Early notes for a reusable API base project.
 
 ## Purpose
 
-This repo will collect common API project setup notes before becoming a real starter project.
+This repo collects common API project setup notes and will grow into a Django REST Framework starter.
