@@ -31,3 +31,10 @@ tests/
 ## Serializer note
 
 Serializers should probably handle both input validation and simple output shaping once DRF enters the project.
+
+## Rough authentication checklist
+
+- Decide token package later
+- Keep example views simple
+- Document protected route behavior
+- Avoid storing token examples as real secrets
