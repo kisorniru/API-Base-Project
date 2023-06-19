@@ -11,3 +11,7 @@
 - `/api/auth/login/`
 - `/api/auth/me/`
 - `/api/examples/echo/`
+
+## Versioning idea
+
+Start without explicit versioning, but leave room for `/api/v1/` if the first real client needs a stable contract.
