@@ -38,3 +38,7 @@ Serializers should probably handle both input validation and simple output shapi
 - Keep example views simple
 - Document protected route behavior
 - Avoid storing token examples as real secrets
+
+## Pagination note
+
+Paginated endpoints should return items and metadata together so clients do not guess total counts or next page state.
