@@ -10,7 +10,7 @@
 
 ## Simple format sketch
 
-Successful requests should use `success`, `message`, and `data`. Failed requests should use `success`, `message`, and `errors`.
+Successful requests should use `success`, `message`, and `data`. Failed requests should keep the same top-level feel and return `errors` instead of `data`.
 
 ## Reusable response note
 
