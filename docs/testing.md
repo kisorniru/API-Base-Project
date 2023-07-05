@@ -11,3 +11,9 @@ Use `.env.test` locally if a project needs isolated settings. Keep secrets out o
 - Run `python manage.py test`
 - Run helper tests after response changes
 - Add feature tests with each new endpoint
+
+## Early testing plan
+
+- Test response helpers first
+- Add one route test for health checks
+- Add serializer validation tests when request examples exist
