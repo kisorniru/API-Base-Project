@@ -42,3 +42,7 @@ Serializers should probably handle both input validation and simple output shapi
 ## Pagination note
 
 Paginated endpoints should return items and metadata together so clients do not guess total counts or next page state.
+
+## API example cleanup
+
+Keep example paths short until there is a real domain feature to organize.

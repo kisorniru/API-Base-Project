@@ -10,7 +10,7 @@
 - `/api/health/`
 - `/api/auth/login/`
 - `/api/auth/me/`
-- `/api/examples/echo/`
+- `/api/echo/`
 
 ## Versioning idea
 
