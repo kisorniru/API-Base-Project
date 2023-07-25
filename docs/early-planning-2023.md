@@ -46,3 +46,7 @@ Paginated endpoints should return items and metadata together so clients do not 
 ## API example cleanup
 
 Keep example paths short until there is a real domain feature to organize.
+
+## Settings structure idea
+
+Keep one settings module at first. Split settings only when local, test, and production behavior actually diverge.
