@@ -50,3 +50,7 @@ Keep example paths short until there is a real domain feature to organize.
 ## Settings structure idea
 
 Keep one settings module at first. Split settings only when local, test, and production behavior actually diverge.
+
+## Env example note
+
+An `.env.example` file should document secret key, debug mode, and allowed hosts before any deployment notes are added.
