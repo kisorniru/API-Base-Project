@@ -16,3 +16,7 @@ The first version should stay small and understandable.
 ## Django thought
 
 Django feels like the right later step because the starter can stay boring while still covering routing, settings, auth, and tests.
+
+## Django setup update
+
+The first real setup should include only the pieces needed for an API: settings, URLs, DRF, and a health route.
