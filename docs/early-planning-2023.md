@@ -54,3 +54,7 @@ Keep one settings module at first. Split settings only when local, test, and pro
 ## Env example note
 
 An `.env.example` file should document secret key, debug mode, and allowed hosts before any deployment notes are added.
+
+## DRF dependency note
+
+The requirements file should eventually pin Django and Django REST Framework ranges instead of relying on whatever is newest.
