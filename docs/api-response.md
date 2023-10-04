@@ -8,3 +8,15 @@ Response helpers live in `apps.core.responses` and should be used instead of han
 - `unauthorized` for missing credentials
 - `forbidden` for blocked actions
 - `validation_error` for invalid request payloads
+
+## Basic payload example
+
+```json
+{
+  "success": true,
+  "message": "Request completed",
+  "data": {
+    "id": 1
+  }
+}
+```
