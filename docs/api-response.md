@@ -20,3 +20,15 @@ Response helpers live in `apps.core.responses` and should be used instead of han
   }
 }
 ```
+
+## Error payload example
+
+```json
+{
+  "success": false,
+  "message": "Validation failed",
+  "errors": {
+    "email": ["This field is required."]
+  }
+}
+```
