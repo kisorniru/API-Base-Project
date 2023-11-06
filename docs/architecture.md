@@ -15,3 +15,7 @@ Views should coordinate request parsing, validation, service calls, and response
 ## Service layer planning
 
 Services can hold use-case level behavior once a feature has more than one step. Until then, a clear view and serializer are enough.
+
+## Repository thought
+
+Repositories are useful when query rules need names. They should not be added just to wrap every model call.
