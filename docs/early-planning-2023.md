@@ -15,10 +15,6 @@ This project exists because I keep starting API projects with the same loose que
 
 Start with plain notes, then slowly turn the useful pieces into a Django REST Framework base project that can be copied into real work.
 
-## Wording cleanup
-
-Use API consistently instead of mixing API, backend, and service language too early.
-
 ## Simple folder plan
 
 ```text
@@ -58,3 +54,7 @@ An `.env.example` file should document secret key, debug mode, and allowed hosts
 ## DRF dependency note
 
 The requirements file should eventually pin Django and Django REST Framework ranges instead of relying on whatever is newest.
+
+## Planning cleanup
+
+Removed an older wording note after the README settled on the API language.
