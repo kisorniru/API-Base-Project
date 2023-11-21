@@ -7,3 +7,7 @@
 ## Request validation update
 
 Validation errors should return field names, not just one flat message. That will make frontend handling easier later.
+
+## Serializer validation note
+
+Serializer validation should return predictable field errors and avoid raising custom exceptions for normal bad input.
