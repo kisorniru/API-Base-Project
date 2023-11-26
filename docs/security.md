@@ -22,3 +22,7 @@ Treat access tokens as credentials. Keep lifetimes short and rotate refresh toke
 ## Last reminder
 
 Do not ship the example secret key, example token strings, or debug settings to production.
+
+## API permissions
+
+Permission examples should explain guest, authenticated, and owner-only access without tying the starter to one domain model.
