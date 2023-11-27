@@ -58,3 +58,9 @@ The requirements file should eventually pin Django and Django REST Framework ran
 ## Planning cleanup
 
 Removed an older wording note after the README settled on the API language.
+
+## Small security checklist
+
+- Never commit real secrets
+- Keep debug disabled outside local development
+- Document token handling before adding auth examples
