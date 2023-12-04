@@ -17,3 +17,7 @@ Use `.env.test` locally if a project needs isolated settings. Keep secrets out o
 - Test response helpers first
 - Add one route test for health checks
 - Add serializer validation tests when request examples exist
+
+## Local SQLite note
+
+SQLite is the easiest local default for this starter. Projects can switch databases when their real feature set demands it.
