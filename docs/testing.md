@@ -21,3 +21,10 @@ Use `.env.test` locally if a project needs isolated settings. Keep secrets out o
 ## Local SQLite note
 
 SQLite is the easiest local default for this starter. Projects can switch databases when their real feature set demands it.
+
+## Testing checklist draft
+
+- Run the Django test command
+- Check response helper behavior
+- Check serializer validation behavior
+- Add route tests for public endpoints
