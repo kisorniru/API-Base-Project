@@ -75,3 +75,5 @@ Use `success_response`, `error_response`, and `validation_error_response` from `
 ## Stable Version Note
 
 The first stable version is still intentionally small. It is ready to clone, install, inspect, and extend into a real API service.
+
+<!-- spacing checked during early planning -->
