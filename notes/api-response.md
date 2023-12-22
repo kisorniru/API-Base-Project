@@ -19,3 +19,15 @@ The response format should be reusable enough that views do not build JSON by ha
 ## Error response thought
 
 Errors should carry a readable message plus a stable code when the client needs to branch on the result.
+
+## Updated response sketch
+
+```json
+{
+  "success": false,
+  "message": "Request failed",
+  "errors": {
+    "code": "example_error"
+  }
+}
+```
