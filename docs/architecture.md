@@ -19,3 +19,7 @@ Services can hold use-case level behavior once a feature has more than one step.
 ## Repository thought
 
 Repositories are useful when query rules need names. They should not be added just to wrap every model call.
+
+## Exception handling
+
+Central exception handling should normalize common DRF errors without hiding unexpected server errors during local development.
