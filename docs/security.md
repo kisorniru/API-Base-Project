@@ -26,3 +26,7 @@ Do not ship the example secret key, example token strings, or debug settings to 
 ## API permissions
 
 Permission examples should explain guest, authenticated, and owner-only access without tying the starter to one domain model.
+
+## Permission note
+
+Default to explicit permission classes in real endpoints, even if examples start open for easier local testing.
