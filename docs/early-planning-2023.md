@@ -64,3 +64,10 @@ Removed an older wording note after the README settled on the API language.
 - Never commit real secrets
 - Keep debug disabled outside local development
 - Document token handling before adding auth examples
+
+## Local development todo
+
+- Add install commands
+- Add migrate and runserver notes
+- Add test command notes
+- Keep setup short enough to follow quickly
