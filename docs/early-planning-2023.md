@@ -71,3 +71,7 @@ Removed an older wording note after the README settled on the API language.
 - Add migrate and runserver notes
 - Add test command notes
 - Keep setup short enough to follow quickly
+
+## CI later
+
+A simple GitHub Actions workflow can run tests once the project has a real Django structure and requirements files.
