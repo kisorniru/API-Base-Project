@@ -79,3 +79,7 @@ A simple GitHub Actions workflow can run tests once the project has a real Djang
 ## Year-end polish
 
 The notes now point toward a small DRF starter instead of a vague API idea, which is enough direction for a proper rebuild.
+
+## Initial planning wrap-up
+
+The planning phase is complete enough to move into Django project setup, response helpers, auth examples, and tests next.

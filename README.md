@@ -77,3 +77,7 @@ Use `success_response`, `error_response`, and `validation_error_response` from `
 The first stable version is still intentionally small. It is ready to clone, install, inspect, and extend into a real API service.
 
 <!-- spacing checked during early planning -->
+
+## Planning history
+
+The 2023 notes capture the rough path from a loose API idea toward a small Django REST Framework starter.
