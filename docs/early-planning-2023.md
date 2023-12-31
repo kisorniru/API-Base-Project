@@ -75,3 +75,7 @@ Removed an older wording note after the README settled on the API language.
 ## CI later
 
 A simple GitHub Actions workflow can run tests once the project has a real Django structure and requirements files.
+
+## Year-end polish
+
+The notes now point toward a small DRF starter instead of a vague API idea, which is enough direction for a proper rebuild.
