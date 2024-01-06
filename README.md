@@ -1,11 +1,5 @@
 # API Base Project
 
-Early notes for a reusable API base project.
+A small Django and Django REST Framework base project for starting JSON APIs with a predictable response shape.
 
-## Purpose
-
-This repo collects common API project setup notes and will grow into a Django REST Framework starter.
-
-## Revisit
-
-The base project should stay boring in a good way: clear routes, simple helpers, and setup notes I can trust.
+The project began as loose notes and is slowly becoming a reusable API starter. The goal is not to hide Django, but to keep the first few decisions clear: settings, routes, responses, validation, authentication examples, and tests.
