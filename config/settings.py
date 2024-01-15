@@ -13,6 +13,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = []
 ROOT_URLCONF = 'config.urls'
+# Template rendering is not needed for this API starter.
 TEMPLATES = []
 WSGI_APPLICATION = 'config.wsgi.application'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
