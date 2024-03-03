@@ -1,6 +1,6 @@
 from rest_framework.decorators import api_view
-from rest_framework.response import Response
+from apps.core.responses import success_response
 
 @api_view(['GET'])
 def health_check(request):
-    return Response({'status': 'ok'})
+    return success_response({'status': 'ok'}, message='API is healthy')
