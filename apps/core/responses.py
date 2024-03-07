@@ -9,3 +9,10 @@ def build_response(data=None, message='OK', status_code=200):
 
 def success_response(data=None, message='Request completed', status_code=200):
     return build_response(data=data, message=message, status_code=status_code)
+
+def error_response(message='Request failed', errors=None, status_code=400):
+    return Response({
+        'success': False,
+        'message': message,
+        'errors': errors or {},
+    }, status=status_code)
