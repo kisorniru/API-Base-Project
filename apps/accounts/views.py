@@ -12,3 +12,6 @@ def token_payload(user_id, access_token, refresh_token=None):
 
 def login(request):
     return success_response(token_payload(1, 'example-token'), message='Logged in')
+
+def current_user(request):
+    return success_response({'id': 1, 'name': 'Example User'}, message='Current user')
