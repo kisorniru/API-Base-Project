@@ -15,3 +15,6 @@ def login(request):
 
 def current_user(request):
     return success_response({'id': 1, 'name': 'Example User'}, message='Current user')
+
+def logout(request):
+    return success_response(message='Logged out')
