@@ -13,3 +13,7 @@ The project began as loose notes and is slowly becoming a reusable API starter. 
   "data": {}
 }
 ```
+
+## Pagination
+
+Paginated responses should return `items` with a `meta` object containing page details.
