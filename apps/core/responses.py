@@ -19,3 +19,6 @@ def error_response(message='Request failed', errors=None, status_code=400):
 
 def validation_error_response(errors, message='Validation failed'):
     return error_response(message=message, errors=errors, status_code=422)
+
+def not_found_response(message='Resource not found'):
+    return error_response(message=message, errors={'code': 'not_found'}, status_code=404)
