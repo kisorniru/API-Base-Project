@@ -22,3 +22,6 @@ def validation_error_response(errors, message='Validation failed'):
 
 def not_found_response(message='Resource not found'):
     return error_response(message=message, errors={'code': 'not_found'}, status_code=404)
+
+def unauthorized_response(message='Authentication is required'):
+    return error_response(message=message, errors={'code': 'unauthorized'}, status_code=401)
