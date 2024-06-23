@@ -25,3 +25,6 @@ def not_found_response(message='Resource not found'):
 
 def unauthorized_response(message='Authentication is required'):
     return error_response(message=message, errors={'code': 'unauthorized'}, status_code=401)
+
+def forbidden_response(message='You do not have permission for this action'):
+    return error_response(message=message, errors={'code': 'forbidden'}, status_code=403)
