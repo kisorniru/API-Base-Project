@@ -24,3 +24,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'apps.core.exceptions.api_exception_handler',
+}
