@@ -8,4 +8,5 @@ def api_exception_handler(exc, context):
         return error_response('Unexpected server error', status_code=500)
     if response.status_code == 400:
         return validation_error_response(response.data)
-    return error_response(str(getattr(exc, 'detail', 'Request failed')), status_code=response.status_code)
+    message = getattr(exc, 'detail', 'Request failed')
+    return error_response(str(message), status_code=response.status_code)
