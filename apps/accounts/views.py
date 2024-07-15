@@ -1,3 +1,4 @@
+from apps.accounts.services import AuthService
 from apps.core.responses import success_response
 
 def token_payload(user_id, access_token, refresh_token=None):
@@ -11,7 +12,8 @@ def token_payload(user_id, access_token, refresh_token=None):
     return payload
 
 def login(request):
-    return success_response(token_payload(1, 'example-token'), message='Logged in')
+    token = AuthService().issue_example_token()
+    return success_response(token_payload(token.user_id, token.access_token), message='Logged in')
 
 def current_user(request):
     return success_response({'id': 1, 'name': 'Example User'}, message='Current user')
