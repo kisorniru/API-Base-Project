@@ -12,7 +12,7 @@ def token_payload(user_id, access_token, refresh_token=None):
     return payload
 
 def login(request):
-    token = AuthService().issue_example_token()
+    token = AuthService().issue_token_for_user()
     return success_response(token_payload(token.user_id, token.access_token), message='Logged in')
 
 def current_user(request):
