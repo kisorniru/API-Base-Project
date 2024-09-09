@@ -1,7 +1,7 @@
 from django.test import SimpleTestCase
 
 class GuestAccessExampleTests(SimpleTestCase):
-    def test_guest_access_message(self):
+    def test_guest_access_message_is_clear(self):
         self.assertEqual('Authentication is required', 'Authentication is required')
 
 class AuthenticatedUserExampleTests(SimpleTestCase):
