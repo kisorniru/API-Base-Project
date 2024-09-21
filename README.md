@@ -17,3 +17,7 @@ The project began as loose notes and is slowly becoming a reusable API starter. 
 ## Pagination
 
 Paginated responses should return `items` with a `meta` object containing page and total count details.
+
+## Testing
+
+Install development requirements and run `pytest`. The starter uses SQLite for local tests.
