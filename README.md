@@ -21,3 +21,11 @@ Paginated responses should return `items` with a `meta` object containing page a
 ## Testing
 
 Install development requirements and run `pytest`. The starter uses SQLite for local tests.
+
+## Local development checklist
+
+- Create a virtual environment
+- Install requirements
+- Copy `.env.example` to `.env`
+- Run migrations
+- Start the development server
