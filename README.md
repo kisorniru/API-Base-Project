@@ -29,3 +29,10 @@ Install development requirements and run `pytest`. The starter uses SQLite for l
 - Copy `.env.example` to `.env`
 - Run migrations
 - Start the development server
+
+## Pip commands
+
+```bash
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+```
