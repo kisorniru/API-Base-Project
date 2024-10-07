@@ -36,3 +36,11 @@ Install development requirements and run `pytest`. The starter uses SQLite for l
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
+
+## Manage.py commands
+
+```bash
+python manage.py migrate
+python manage.py runserver
+python manage.py test
+```
