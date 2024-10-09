@@ -44,3 +44,11 @@ python manage.py migrate
 python manage.py runserver
 python manage.py test
 ```
+
+## API routes
+
+- `GET /api/health/`
+- `POST /api/echo/`
+- `POST /api/auth/login/`
+- `POST /api/auth/logout/`
+- `GET /api/auth/me/`
