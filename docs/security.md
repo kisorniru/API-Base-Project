@@ -14,3 +14,7 @@ Use a small allowlist for browser clients. Avoid wildcard origins on authenticat
 - Disable debug in production
 - Keep allowed hosts explicit
 - Use HTTPS for token traffic
+
+## Token security
+
+Treat access tokens as credentials. Keep lifetimes short and rotate refresh tokens when the authentication package supports it.
