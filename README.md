@@ -50,3 +50,14 @@ python manage.py test
 - `POST /api/auth/login/`
 - `POST /api/auth/logout/`
 - `GET /api/auth/me/`
+
+## Folder structure
+
+```text
+config/              Django project settings and URLs
+apps/core/           Shared API helpers
+apps/api/            Public example endpoints
+apps/accounts/       Auth example endpoints
+docs/                Project notes and conventions
+tests/               Starter test examples
+```
