@@ -1,6 +1,6 @@
 # API responses
 
-Response helpers live in `apps.core.responses` and should be used instead of hand-built dictionaries in views.
+Response helpers live in `apps.core.responses` and should be used instead of hand-built dictionaries in views. Keep examples short so they are easy to copy into real endpoints.
 
 ## Error codes
 
