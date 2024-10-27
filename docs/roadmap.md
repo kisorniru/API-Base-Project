@@ -12,3 +12,10 @@ The starter will avoid template files and admin setup until a project actually n
 ## Route note
 
 Keep route files grouped by feature and avoid comments that repeat the path name.
+
+## Next steps
+
+- Replace example auth with a real token package
+- Add one real domain feature
+- Generate OpenAPI docs
+- Add Docker when deployment target is known
