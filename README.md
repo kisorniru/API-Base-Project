@@ -31,8 +31,8 @@ Install development requirements and run `pytest`. The starter uses SQLite for l
 ## Pip commands
 
 ```bash
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
 ```
 
 ## Manage.py commands
