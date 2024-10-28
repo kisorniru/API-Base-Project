@@ -61,3 +61,7 @@ apps/accounts/       Auth example endpoints
 docs/                Project notes and conventions
 tests/               Starter test examples
 ```
+
+## Project summary
+
+This starter gives a new API project a practical first shape: Django settings, DRF routes, response helpers, auth examples, architecture notes, and test examples.
