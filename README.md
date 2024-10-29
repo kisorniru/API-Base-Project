@@ -65,3 +65,7 @@ tests/               Starter test examples
 ## Project summary
 
 This starter gives a new API project a practical first shape: Django settings, DRF routes, response helpers, auth examples, architecture notes, and test examples.
+
+## Response helpers
+
+Use `success_response`, `error_response`, and `validation_error_response` from `apps.core.responses` so endpoints return the same top-level keys.
