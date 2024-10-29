@@ -1,5 +1,7 @@
 # API Base Project
 
+A practical base for Django REST Framework APIs.
+
 A small Django and Django REST Framework base project for starting JSON APIs with predictable settings, routes, responses, validation, authentication examples, and tests.
 
 ## Response shape
