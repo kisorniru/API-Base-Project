@@ -71,3 +71,7 @@ This starter gives a new API project a practical starting shape: Django settings
 ## Response helpers
 
 Use `success_response`, `error_response`, and `validation_error_response` from `apps.core.responses` so endpoints return the same top-level keys.
+
+## Stable version note
+
+The first stable version is still intentionally small. It is ready to clone, install, inspect, and extend into a real API service.
