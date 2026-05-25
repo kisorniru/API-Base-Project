@@ -1,8 +1,8 @@
 # Roadmap
 
+- Document conventions
 - Build Django foundation
 - Add reusable API helpers
-- Document conventions
 - Add tests and development notes
 
 ## Keeping it lean

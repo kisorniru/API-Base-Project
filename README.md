@@ -1,6 +1,6 @@
 # API Base Project
 
-A practical base for Django REST Framework APIs.
+A practical base for Django REST Framework APIs, shaped from small planning notes and repeated API setup needs.
 
 A small Django and Django REST Framework base project for starting JSON APIs with predictable settings, routes, responses, validation, authentication examples, and tests.
 
@@ -64,7 +64,7 @@ docs/                Project notes and conventions
 tests/               Starter test examples
 ```
 
-## Project summary
+## Project Overview
 
 This starter gives a new API project a practical starting shape: Django settings, DRF routes, response helpers, auth examples, architecture notes, and test examples.
 
@@ -72,6 +72,12 @@ This starter gives a new API project a practical starting shape: Django settings
 
 Use `success_response`, `error_response`, and `validation_error_response` from `apps.core.responses` so endpoints return the same top-level keys.
 
-## Stable version note
+## Stable Version Note
 
 The first stable version is still intentionally small. It is ready to clone, install, inspect, and extend into a real API service.
+
+<!-- spacing checked during early planning -->
+
+## Planning history
+
+The 2023 notes capture the rough path from a loose API idea toward a small Django REST Framework starter.
